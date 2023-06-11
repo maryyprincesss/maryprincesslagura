@@ -177,7 +177,11 @@ header{
 }
 
 header.sticky{
-  background: #526D82;
+  background: linear-gradient(135deg,
+  rgba(82, 109, 130, 0.4),
+  rgba(82, 109, 130, 0.2));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(25px);
   padding: 10px 100px;
 }
 
