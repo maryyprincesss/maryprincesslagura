@@ -663,11 +663,11 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: linear-gradient(
-    to bottom right, 
-    #1f2e42 0%, 
-    #526D82 100%
-  ), hsl(240, 2%, 13%);;
+  background: linear-gradient(135deg,
+  rgba(82, 109, 130, 0.4),
+  rgba(82, 109, 130, 0.2));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(25px);
   border-radius: inherit;
   z-index: -1;
 }
@@ -967,11 +967,7 @@ main {
 }
 
 .skill-progress-fill {
-  background: linear-gradient(
-    to right, 
-    #fafafa, 
-    #9DB2BF
-  );
+  background:#9DB2BF;
   height: 100%;
   border-radius: inherit;
 }
